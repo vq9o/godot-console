@@ -1,10 +1,8 @@
 extends Node
 
-
 signal console_opened
 signal console_closed
 signal console_unknown_command
-
 
 class ConsoleCommand:
 	var function : Callable
